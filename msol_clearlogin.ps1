@@ -3,8 +3,8 @@ Import-Module MSOnline
 $stage = ""
 $dev = ""
 # Uncomment if using clearlogin-stage 
-$stage = "-stage"
-$dev = ""
+#$stage = "-stage"
+#$dev = ""
 #uncomment if using dev
 #$stage = "-dev"
 #$dev = ":3000"
