@@ -46,7 +46,7 @@ else
 $idpSub = Read-Host 'Please enter the idP subdomain on clearlogin.com: '
 $passiveLogin = "https://"+$idpSub+".clearlogin"+$stage+".com"+$dev+"/apps/office365/login"
 $logout = "https://"+$idpSub+".clearlogin"+$stage+".com"+$dev+"/apps/logout"
-$issuer = "httsp://"+$idpSub+".clearlogin"+$stage+".com"+$dev+"/"
+$issuer = "https://"+$idpSub+".clearlogin"+$stage+".com"+$dev+"/"
 Write-Host "Please find the public cert file you downloaded from https://admin.clearlogin.com"
 $certPath = Get-FileName
 $cert = New-Object System.Security.Cryptography.X509Certificates.X509Certificate2($certPath)
